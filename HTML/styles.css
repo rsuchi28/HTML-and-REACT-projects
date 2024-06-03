@@ -1,0 +1,204 @@
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+table, th, td {
+    border:1px solid black;
+  }
+.title{
+    margin-left: 45%;
+    margin-top: 2%;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+.content-container {
+    max-width: 1200px;
+    margin: 2% auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+#intro {
+    color: black;
+    text-align: justify;
+    font-family: 'Garamond', serif;
+    font-size: 1.75em;
+    width: 55%;
+    line-height: 1.4;
+    margin-left: 25%;
+}
+
+.imgcat {
+    width: 600px; 
+    /*max-width: 100%;*/
+    height: 400px
+}
+
+
+a:link{
+    color: aqua;
+}
+a:visited{
+    color: blueviolet;
+}
+a:hover{
+    color: red;
+}
+
+.image-container {
+    background-image: url("https://i.pinimg.com/originals/94/65/e4/9465e4bc068274e084d3036647aa5617.jpg");
+    background-size: cover;
+    position: relative;
+    height: 300px;
+  }
+  
+  .text {
+    background-color: white;
+    color: black;
+    font-size: 10vw; 
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    mix-blend-mode: screen;
+  }
+  .content-container1 {
+    max-width: 1200px;
+    margin: 2% auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.block {
+    width: 23%; 
+    background-color: black; 
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+div p{
+    font-family: garamond;
+    font-size: 25px;
+    color: white;
+}
+footer {
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-info {
+    flex: 1; 
+}
+
+.contact-info h3 {
+    margin-bottom: 10px;
+}
+
+.social-media ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: right; 
+}
+
+.social-media ul li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.social-media ul li:first-child {
+    margin-left: 0;
+}
+
+.social-media ul li a img {
+    width: 30px; /* Adjust size as needed */
+    height: 30px; /* Adjust size as needed */
+}
+
+.social-media ul li a:hover img {
+    opacity: 0.8;
+}
+
+.audio-wrapper {
+    display: flex;
+  }
+  
+  .audio-block {
+    width: 50%; /* Each block occupies half the page */
+    padding: 10px; /* Add padding for spacing */
+  }
+  
+  .card {
+    background-color: #191919; 
+    color: #fff; 
+    
+  }
+  
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+    float: inline-start;
+    margin: 70px;
+    box-shadow: 0 10px 10px 0 rgba(0,0,0,0.8);
+    
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-card-back {
+    background-color: #191919;
+    color: white;
+    transform: rotateY(180deg);
+  }
+  
+

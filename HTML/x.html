@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        .hidden-box{
+         background-color: aqua;
+         padding: 40px;
+         margin: 70px;
+         text-align: center;
+         display:none
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div style="background-color: aliceblue; margin: 70px; text-align: center; padding-top: 40px; padding-bottom: 40px;" onclick="toggleHiddenBox()"> xyz this is a trial</div>
+        <div class="hidden-box" id="hiddenBox">
+            this is my trial
+        </div>
+    </div>
+    <script>
+         function toggleHiddenBox() {
+            var hiddenBox = document.getElementById('hiddenBox');
+            if (hiddenBox.style.display === 'none') {
+                hiddenBox.style.display = 'block';
+            } else {
+                hiddenBox.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
